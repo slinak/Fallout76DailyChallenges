@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\merse\\Documents\\GitHub\\DailyChallenges\\FODailyChallenges\\FODailyChallenges.csproj": {}
+    "c:\\Users\\merse\\Documents\\GitHub\\DailyChallenges\\FODailyChallenges\\FODailyChallenges.csproj": {}
   },
   "projects": {
-    "C:\\Users\\merse\\Documents\\GitHub\\DailyChallenges\\FODailyChallenges\\FODailyChallenges.csproj": {
+    "c:\\Users\\merse\\Documents\\GitHub\\DailyChallenges\\FODailyChallenges\\FODailyChallenges.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\merse\\Documents\\GitHub\\DailyChallenges\\FODailyChallenges\\FODailyChallenges.csproj",
+        "projectUniqueName": "c:\\Users\\merse\\Documents\\GitHub\\DailyChallenges\\FODailyChallenges\\FODailyChallenges.csproj",
         "projectName": "FODailyChallenges",
-        "projectPath": "C:\\Users\\merse\\Documents\\GitHub\\DailyChallenges\\FODailyChallenges\\FODailyChallenges.csproj",
+        "projectPath": "c:\\Users\\merse\\Documents\\GitHub\\DailyChallenges\\FODailyChallenges\\FODailyChallenges.csproj",
         "packagesPath": "C:\\Users\\merse\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\merse\\Documents\\GitHub\\DailyChallenges\\FODailyChallenges\\obj\\",
+        "outputPath": "c:\\Users\\merse\\Documents\\GitHub\\DailyChallenges\\FODailyChallenges\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

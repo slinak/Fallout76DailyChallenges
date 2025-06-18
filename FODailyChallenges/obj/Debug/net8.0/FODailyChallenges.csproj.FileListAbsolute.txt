@@ -28,3 +28,4 @@ c:\Users\merse\Documents\GitHub\DailyChallenges\FODailyChallenges\obj\Debug\net8
 c:\Users\merse\Documents\GitHub\DailyChallenges\FODailyChallenges\obj\Debug\net8.0\FODailyChallenges.pdb
 c:\Users\merse\Documents\GitHub\DailyChallenges\FODailyChallenges\obj\Debug\net8.0\FODailyChallenges.genruntimeconfig.cache
 c:\Users\merse\Documents\GitHub\DailyChallenges\FODailyChallenges\obj\Debug\net8.0\ref\FODailyChallenges.dll
+c:\Users\merse\Documents\GitHub\DailyChallenges\FODailyChallenges\obj\Debug\net8.0\FODailyChallenges.sourcelink.json

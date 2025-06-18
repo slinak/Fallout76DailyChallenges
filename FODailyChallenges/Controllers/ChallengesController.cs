@@ -24,8 +24,20 @@ public class ChallengesController : Controller
         return RedirectToAction("Index");
         //return View(challenges);
     }
-    
+
     public IActionResult Create()
+    {
+        return View();
+    }
+
+    [HttpPost]
+    public IActionResult CreateResolution()
+    {
+        return View();
+    }
+
+    [HttpGet]
+    public IActionResult CreateResolution(string challengeID)
     {
         return View();
     }

@@ -1,12 +1,12 @@
 using System.ComponentModel;
-using FODailyChallenges.Models;
 
+namespace FODailyChallenges.Models;
 public class ChallengeResolution
 {
     public string ResolutionID { get; set; }
     public string? ChallengeID { get; set; }
     public string Location { get; set; }
-    [Description("An estimation of the quantity that can be found at the location")]
+    [DisplayName("An estimation of the quantity that can be found at the location")]
     public ResolutionQuantity Quantity { get; set; }
 
     public ChallengeResolution(string _challengeID, string _location, ResolutionQuantity _quantity)
