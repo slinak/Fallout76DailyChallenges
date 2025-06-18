@@ -1,0 +1,45 @@
+@model IEnumerable<FODailyChallenges.Models.DailyChallenge>
+@{
+    ViewData["Title"] = "Daily Challenges";
+}
+
+<p>
+        @Html.ActionLink("Create New Daily Challenge", "Create")
+    </p>
+
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ChallengeID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Type)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Text)
+            </th>
+            <th>
+                @Html.Label("Actions")
+            </th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ChallengeID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Type)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Text)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.ChallengeID })
+                    @Html.ActionLink("Details", "Details", new { id = item.ChallengeID })
+                    @Html.ActionLink("Delete", "Delete", new { id = item.ChallengeID })
+                    @Html.ActionLink("Create Resolution", "CreateResolution", new { id = item.ChallengeID })
+                </td>
+            </tr>
+        }
+    </table>
