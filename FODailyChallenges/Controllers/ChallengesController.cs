@@ -36,6 +36,7 @@ public class ChallengesController : Controller
         return View();
     }
 
+    //This is really more of like 'Manage and create known Resolutions'
     [HttpGet]
     public IActionResult CreateResolution(string challengeID)
     {
