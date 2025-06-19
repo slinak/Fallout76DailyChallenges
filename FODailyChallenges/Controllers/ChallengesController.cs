@@ -9,18 +9,18 @@ namespace FODailyChallenges.Controllers;
 
 public class ChallengesController : Controller
 {
-    List<DailyChallenge> challenges = new List<DailyChallenge>();
+    private readonly ChallengesDBContext dataContext;
 
     public IActionResult Index()
     {
-        challenges.Add(new DailyChallenge(ChallengeType.Action, "Find books"));
+        var challenges = dataContext.Challenge;
         return View(challenges);
     }
 
     [HttpPost]
     public IActionResult Create(string _text, ChallengeType _type)
     {
-        challenges.Add(new DailyChallenge(_type, _text));
+        //challenges.Add(new DailyChallenge(_type, _text));
         return RedirectToAction("Index");
         //return View(challenges);
     }
