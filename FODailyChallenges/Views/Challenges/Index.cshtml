@@ -13,10 +13,10 @@
                 @Html.DisplayNameFor(model => model.ChallengeID)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Type)
+                @Html.DisplayNameFor(model => model.ChallengeType)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Text)
+                @Html.DisplayNameFor(model => model.ChallengeText)
             </th>
             <th>
                 @Html.Label("Actions")
@@ -29,10 +29,10 @@
                     @Html.DisplayFor(modelItem => item.ChallengeID)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Type)
+                    @Html.DisplayFor(modelItem => item.ChallengeType)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Text)
+                    @Html.DisplayFor(modelItem => item.ChallengeText)
                 </td>
                 <td>
                     @Html.ActionLink("Edit", "Edit", new { id = item.ChallengeID })

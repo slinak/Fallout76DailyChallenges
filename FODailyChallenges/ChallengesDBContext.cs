@@ -2,13 +2,18 @@ using Microsoft.EntityFrameworkCore;
 
 namespace FODailyChallenges.Models;
 
-public class ChallengesDBContext: DbContext
+public class ChallengesDBContext : DbContext
 {
     public DbSet<DailyChallenge> Challenge { get; set; }
     public DbSet<ChallengeResolution> Resolution { get; set; }
 
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    public ChallengesDBContext(DbContextOptions<ChallengesDBContext> options) : base(options)
     {
-        optionsBuilder.UseSqlServer(System.Configuration.ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString);
+
+    }
+
+    public List<DailyChallenge> GetChallengesAll()
+    {
+        return Challenge.ToList();
     }
 }

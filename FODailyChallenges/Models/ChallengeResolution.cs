@@ -1,20 +1,24 @@
 using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 
 namespace FODailyChallenges.Models;
 public class ChallengeResolution
 {
-    public string ResolutionID { get; set; }
-    public string? ChallengeID { get; set; }
-    public string Location { get; set; }
+    [Key]
+    public Guid ResolutionID { get; set; }
+    public Guid? ChallengeID { get; set; }
+    public string ResolutionLocation { get; set; }
     [DisplayName("An estimation of the quantity that can be found at the location")]
-    public ResolutionQuantity Quantity { get; set; }
+    public ResolutionQuantity ResolutionQuantity { get; set; }
 
-    public ChallengeResolution(string _challengeID, string _location, ResolutionQuantity _quantity)
+    public ChallengeResolution() { }
+
+    public ChallengeResolution(Guid _challengeID, string _location, ResolutionQuantity _quantity)
     {
-        ResolutionID = Guid.NewGuid().ToString();
+        ResolutionID = Guid.NewGuid();
         ChallengeID = _challengeID;
-        Location = _location;
-        Quantity = _quantity;
+        ResolutionLocation = _location;
+        ResolutionQuantity = _quantity;
     }
 }
 

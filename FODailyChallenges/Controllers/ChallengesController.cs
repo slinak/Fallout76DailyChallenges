@@ -9,11 +9,16 @@ namespace FODailyChallenges.Controllers;
 
 public class ChallengesController : Controller
 {
-    private readonly ChallengesDBContext dataContext;
+    private readonly ChallengesDBContext _dataContext;
+
+    public ChallengesController(ChallengesDBContext dataContext)
+    {
+        _dataContext = dataContext;
+    }
 
     public IActionResult Index()
     {
-        var challenges = dataContext.Challenge;
+        var challenges = _dataContext.Challenge;
         return View(challenges);
     }
 

@@ -13,22 +13,22 @@
     <div class="form-horizontal">
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
         <div class="form-group row">
-            @Html.LabelFor(model => model.Text, @Html.DisplayNameFor(model => model.Text), htmlAttributes: new { @class = "control-label col-sm" })
+            @Html.LabelFor(model => model.ChallengeText, @Html.DisplayNameFor(model => model.ChallengeText), htmlAttributes: new { @class = "control-label col-sm" })
             <div class="col-md-10">
-                @Html.EditorFor(model => model.Text, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.Text, "", new { @class = "text-danger" })
+                @Html.EditorFor(model => model.ChallengeText, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.ChallengeText, "", new { @class = "text-danger" })
                 <small>Please enter the challenge text exactly as it appears in game.</small>
             </div>
         </div>
         <div class="form-group row">
-            @Html.LabelFor(model => model.Type, "Challenge Type", htmlAttributes: new { @class = "control-label col-sm" })
+            @Html.LabelFor(model => model.ChallengeType, "Challenge Type", htmlAttributes: new { @class = "control-label col-sm" })
             <div class="col-md-10">
                 <dl>
                 @foreach (var value in Enum.GetValues(typeof(ChallengeType)))
                     if (value != null)
                     {
                         <dd>
-                            @Html.RadioButtonFor(model => model.Type, value, htmlAttributes : new { @class = "form-check-input", @id = value })
+                            @Html.RadioButtonFor(model => model.ChallengeType, value, htmlAttributes : new { @class = "form-check-input", @id = value })
                             @Html.Label(value.ToString(), value.ToString(), htmlAttributes: new { @for = value })
                         </dd>
                     }
