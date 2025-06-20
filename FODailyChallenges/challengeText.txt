@@ -1,0 +1,80 @@
+----Daily----
+Above rank 100: Gain XPBuild a floor or wall decoration in a shelterBuild a floor or wall decoration in a workshop or C.A.M.P.Build a floor, wall, or roof in workshops or C.A.M.P.sBuild anything in a shelterBuild anything in workshops or C.A.M.P.Buy an item from or sell an item to another playerChew some bubblegumClaim a workshopCollect a bobbleheadCollect an audio holotapeCollect capsCollect purified waterCollect woodComplete a Daily Operation on a full team!Complete a Daily Operation on a public team!Complete a Daily Operation!Complete a daily questComplete an eventComplete an event while in a groupComplete the event: Grahm's Meat-CookComplete the event: Primal CutsConsume an alcoholic beverageCook a meal with plants or fungiCook a meat-based mealCraft ammo at a workbenchCraft or scrap a piece of power armorCraft or scrap a ranged weaponCraft or scrap armorDestroy a robotDrink Nuka-ColaEat a cooked mealEat Pre-war foodGold star: Complete a daily challengeHack a terminalJoin a group with another playerKill a Blood EagleKill a creatureKill a creature while in a groupKill a cryptidKill a CultistKill a deathclawKill a feral ghoulKill a glowing creatureKill a legendary 3-star creatureKill a legendary enemyKill a mole minerKill a ScorchedKill a super mutantLevel up!Mod a piece of armorMod a weaponPick a lockPlant a crop in workshops or C.A.M.P.sRank up a perk cardRepair armor or weaponsRepair armor, weapons, or power armorScrap junk to produce aluminumScrap junk to produce screwsScrap junk to produce springsUse Photomode in a teammate's C.A.M.P.Use Photomode in your own C.A.M.P.Use Photomode to take a photoUse Photomode while in a groupVisit another player's shelterVisit your shelter
+
+----Weekly----
+Build anything in workshops or C.A.M.P.s 	15 	1000
+Build anything in workshops or C.A.M.P.s 	25 	1000
+Build a floor or wall decoration in a workshop or C.A.M.P. 	15 	1000
+Build a floor or wall decoration in a workshop or C.A.M.P. 	25 	1000
+Build a floor, wall, or roof in workshops or C.A.M.P.s 	15 	1000
+Build a floor, wall, or roof in workshops or C.A.M.P.s 	25 	1000
+Build a container, display, or shelf (5)
+Build a wall or floor decoration (5)
+Build a door or stairs (5)
+Plant a crop or build a water source (10)
+Build a generator, light or power connector (20)
+Build a container, display, or shelf (5) (etc..)
+Build a container, display, or shelf in a workshop or C.A.M.P. (5)
+Build a wall or floor decoration in a workshop or C.A.M.P. (5)
+Build a door or stairs in a workshop or C.A.M.P. (5)
+Plant a crop or build a water source in a workshop or C.A.M.P. (10)
+Build a generator, light or power connector in a workshop or C.A.M.P. (20)
+Buy an item from or sell an item to another player 	25 	1000
+Claim a workshop 	10 	1000
+Collect caps 	2500 	1000
+Collect purified water 	25 	1000
+Complete Daily Operations! 	5 	1000
+Complete Daily Operations daily challenges! 	1 	1000
+Complete a Gold Star daily challenge! 	2 	1500
+Complete an event 	15 	1000
+Complete an event while in a group 	5 	1000
+Complete the event: "A Colossal Problem" 	1 	1000
+Complete the event: "Encryptid" 	1 	1000
+Complete the event: "Grahm's Meat-Cook" 	5 	1000
+Consume an alcoholic beverage 	15 	1000
+Craft ammo at a workbench 	250 	1000
+Craft or scrap clothing, armor or a weapon 	50 	1000
+Deal a critical hit to an enemy 	50 	1000
+Destroy an assaultron
+Destroy an eyebot (5)
+Destroy a Liberator (5)
+Destroy a Mr. Handy or Mr. Gutsy robot (5)
+Destroy a Protectron (5)
+Destroy a sentry bot
+Destroy a turret (5)
+Destroy a vertibot
+Drink Nuka-Cola 	25 	1000
+Eat a cooked meal 	25 	1000
+Eat a meat-based meal 	25 	1000
+Eat Pre-war food 	25 	1000
+Scrap junk to produce aluminum (25)
+Collect wood (100)
+Scrap junk to produce concrete (25)
+Scrap junk to produce copper (25)
+Collect fertilizer (25)
+Scrap junk to produce oil (25)
+Scrap junk to produce screws, springs, or gears (25)
+Scrap junk to produce steel (100)
+Scrap junk to produce aluminum (25)
+Harvest a wild plant or fungi 	25 	1000
+Harvest a wild plant or fungi 	50 	1000
+Kill a creature 	20 	1000
+Kill a super mutant behemoth
+Kill a deathclaw
+Kill the Grafton Monster
+Kill a mega sloth
+Kill a mirelurk queen
+Kill a scorchbeast
+Kill a sheepsquatch
+Kill a wendigo colossus
+Kill a legendary enemy 	15 	1000
+Level up! 	3 	1500
+NW: Complete a Nuclear Winter daily challenge! 	3 	1000
+Plant a crop in workshops or C.A.M.P.s 	25 	1000
+REPEATABLE: Gain XP 	10000 	100
+Repeatable under rank 100: Gain XP 	10000 	100
+Repair armor or weapons 	10 	1000
+Repair armor, weapons, or power armor 	10 	1000
+Scrap pre-war money 	100 	1000
+Visit your shelter 	1 	1000
+Visit another player's shelter 	1 	1000 

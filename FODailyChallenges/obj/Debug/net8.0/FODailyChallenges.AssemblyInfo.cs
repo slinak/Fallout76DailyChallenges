@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FODailyChallenges")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cec0e4e2d3195485ace38d65e19017d0a8150b6e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1feadad7e61390976a61a6e53c65e79812bc3469")]
 [assembly: System.Reflection.AssemblyProductAttribute("FODailyChallenges")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FODailyChallenges")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

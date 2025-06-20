@@ -4,6 +4,7 @@ using FODailyChallenges.Models;
 using System.Collections.Generic;
 using System;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace FODailyChallenges.Controllers;
 
@@ -18,16 +19,17 @@ public class ChallengesController : Controller
 
     public IActionResult Index()
     {
-        var challenges = _dataContext.Challenge;
-        return View(challenges);
+        return View(_dataContext.Challenge);
     }
 
     [HttpPost]
-    public IActionResult Create(string _text, ChallengeType _type)
+    public async Task<IActionResult> Create(ChallengeType _type, string _text)
     {
-        //challenges.Add(new DailyChallenge(_type, _text));
+        DailyChallenge dailyChallenge = new DailyChallenge(_type, _text);
+        _dataContext.Challenge.Add(dailyChallenge);
+        await _dataContext.SaveChangesAsync();
+
         return RedirectToAction("Index");
-        //return View(challenges);
     }
 
     public IActionResult Create()

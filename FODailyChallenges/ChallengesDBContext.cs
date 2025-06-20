@@ -11,9 +11,4 @@ public class ChallengesDBContext : DbContext
     {
 
     }
-
-    public List<DailyChallenge> GetChallengesAll()
-    {
-        return Challenge.ToList();
-    }
 }
