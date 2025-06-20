@@ -5,18 +5,18 @@ namespace FODailyChallenges.Models;
 public class ChallengeResolution
 {
     [Key]
-    public Guid ResolutionID { get; set; }
-    public Guid? ChallengeID { get; set; }
-    public string ResolutionLocation { get; set; }
+    public Guid ResolutionID { get; set; } = Guid.NewGuid();
+    public string? ResolutionLocation { get; set; }
     [DisplayName("An estimation of the quantity that can be found at the location")]
-    public ResolutionQuantity ResolutionQuantity { get; set; }
+    public ResolutionQuantity? ResolutionQuantity { get; set; }
+    public virtual DailyChallenge? DailyChallenge{ get; set; }
 
     public ChallengeResolution() { }
 
-    public ChallengeResolution(Guid _challengeID, string _location, ResolutionQuantity _quantity)
+    public ChallengeResolution(Guid _challengeID) => DailyChallenge = new DailyChallenge(_challengeID);
+
+    public ChallengeResolution(string _location, ResolutionQuantity _quantity)
     {
-        ResolutionID = Guid.NewGuid();
-        ChallengeID = _challengeID;
         ResolutionLocation = _location;
         ResolutionQuantity = _quantity;
     }

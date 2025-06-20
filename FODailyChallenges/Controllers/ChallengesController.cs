@@ -19,14 +19,13 @@ public class ChallengesController : Controller
 
     public IActionResult Index()
     {
-        return View(_dataContext.Challenge);
+        return View(_dataContext.Challenges);
     }
 
     [HttpPost]
-    public async Task<IActionResult> Create(ChallengeType _type, string _text)
+    public async Task<IActionResult> Create(DailyChallenge challenge)
     {
-        DailyChallenge dailyChallenge = new DailyChallenge(_type, _text);
-        _dataContext.Challenge.Add(dailyChallenge);
+        await _dataContext.Challenges.AddAsync(challenge);
         await _dataContext.SaveChangesAsync();
 
         return RedirectToAction("Index");
@@ -37,16 +36,27 @@ public class ChallengesController : Controller
         return View();
     }
 
-    [HttpPost]
-    public IActionResult CreateResolution()
+    public async Task<IActionResult> Import(List<DailyChallenge> challenges)
     {
+        await _dataContext.Challenges.AddRangeAsync(challenges);
+        await _dataContext.SaveChangesAsync();
+
+        return RedirectToAction("Index");
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> CreateResolution(ChallengeResolution challengeResolution)
+    {
+        _dataContext.Resolutions.Add(challengeResolution);
+        await _dataContext.SaveChangesAsync();
+
         return View();
     }
 
     //This is really more of like 'Manage and create known Resolutions'
     [HttpGet]
-    public IActionResult CreateResolution(string challengeID)
+    public IActionResult CreateResolution(Guid challengeID)
     {
-        return View();
+        return View(new ChallengeResolution(challengeID));
     }
 }

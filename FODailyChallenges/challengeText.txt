@@ -1,5 +1,24 @@
 ----Daily----
-Above rank 100: Gain XPBuild a floor or wall decoration in a shelterBuild a floor or wall decoration in a workshop or C.A.M.P.Build a floor, wall, or roof in workshops or C.A.M.P.sBuild anything in a shelterBuild anything in workshops or C.A.M.P.Buy an item from or sell an item to another playerChew some bubblegumClaim a workshopCollect a bobbleheadCollect an audio holotapeCollect capsCollect purified waterCollect woodComplete a Daily Operation on a full team!Complete a Daily Operation on a public team!Complete a Daily Operation!Complete a daily questComplete an eventComplete an event while in a groupComplete the event: Grahm's Meat-CookComplete the event: Primal CutsConsume an alcoholic beverageCook a meal with plants or fungiCook a meat-based mealCraft ammo at a workbenchCraft or scrap a piece of power armorCraft or scrap a ranged weaponCraft or scrap armorDestroy a robotDrink Nuka-ColaEat a cooked mealEat Pre-war foodGold star: Complete a daily challengeHack a terminalJoin a group with another playerKill a Blood EagleKill a creatureKill a creature while in a groupKill a cryptidKill a CultistKill a deathclawKill a feral ghoulKill a glowing creatureKill a legendary 3-star creatureKill a legendary enemyKill a mole minerKill a ScorchedKill a super mutantLevel up!Mod a piece of armorMod a weaponPick a lockPlant a crop in workshops or C.A.M.P.sRank up a perk cardRepair armor or weaponsRepair armor, weapons, or power armorScrap junk to produce aluminumScrap junk to produce screwsScrap junk to produce springsUse Photomode in a teammate's C.A.M.P.Use Photomode in your own C.A.M.P.Use Photomode to take a photoUse Photomode while in a groupVisit another player's shelterVisit your shelter
+---Actions---Build a floor or wall decoration in a shelterBuild a floor or wall decoration in a workshop or C.A.M.P.Build a floor, wall, or roof in workshops or C.A.M.P.sBuild anything in a shelterBuild anything in workshops or C.A.M.P.Buy an item from or sell an item to another playerComplete a Daily Operation on a full team!Complete a Daily Operation on a public team!
+Complete a Daily Operation!
+Complete a daily quest
+Complete an event
+Complete an event while in a group
+Complete the event: Grahm's Meat-Cook
+Complete the event: Primal CutsClaim a workshop
+Join a group with another player
+Level up!
+Rank up a perk card
+Use Photomode in a teammate's C.A.M.P.
+Use Photomode in your own C.A.M.P.
+Use Photomode to take a photo
+Use Photomode while in a group
+Visit another player's shelter
+Visit your shelter
+
+
+---Location---
+Chew some bubblegumCollect a bobbleheadCollect an audio holotapeCollect capsCollect purified waterCollect woodConsume an alcoholic beverageCook a meal with plants or fungiCook a meat-based mealCraft ammo at a workbenchCraft or scrap a piece of power armorCraft or scrap a ranged weaponCraft or scrap armorDestroy a robotDrink Nuka-ColaEat a cooked mealEat Pre-war foodHack a terminalKill a Blood EagleKill a creatureKill a creature while in a groupKill a cryptidKill a CultistKill a deathclawKill a feral ghoulKill a glowing creatureKill a legendary 3-star creatureKill a legendary enemyKill a mole minerKill a ScorchedKill a super mutantMod a piece of armorMod a weaponPick a lockPlant a crop in workshops or C.A.M.P.sRepair armor or weaponsRepair armor, weapons, or power armorScrap junk to produce aluminumScrap junk to produce screwsScrap junk to produce springs
 
 ----Weekly----
 Build anything in workshops or C.A.M.P.s 	15 	1000
@@ -13,7 +32,6 @@ Build a wall or floor decoration (5)
 Build a door or stairs (5)
 Plant a crop or build a water source (10)
 Build a generator, light or power connector (20)
-Build a container, display, or shelf (5) (etc..)
 Build a container, display, or shelf in a workshop or C.A.M.P. (5)
 Build a wall or floor decoration in a workshop or C.A.M.P. (5)
 Build a door or stairs in a workshop or C.A.M.P. (5)
