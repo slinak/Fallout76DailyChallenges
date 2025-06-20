@@ -9,7 +9,7 @@ public class ChallengeResolution
     public string? ResolutionLocation { get; set; }
     [DisplayName("An estimation of the quantity that can be found at the location")]
     public ResolutionQuantity? ResolutionQuantity { get; set; }
-    public virtual DailyChallenge? DailyChallenge{ get; set; }
+    public DailyChallenge? DailyChallenge{ get; set; }
 
     public ChallengeResolution() { }
 
