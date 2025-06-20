@@ -13,7 +13,7 @@ public class DailyChallenge
     public ChallengeType? ChallengeType { get; set; }
     [DisplayName("Challenge Text")]
     public string? ChallengeText { get; set; }
-    public ICollection<ChallengeResolution>? Resolutions { get; set; }
+    public virtual ICollection<ChallengeResolution>? Resolutions { get; set; }
 
     public DailyChallenge() { }
 

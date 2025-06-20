@@ -1,5 +1,6 @@
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace FODailyChallenges.Models;
 public class ChallengeResolution
@@ -9,11 +10,12 @@ public class ChallengeResolution
     public string? ResolutionLocation { get; set; }
     [DisplayName("An estimation of the quantity that can be found at the location")]
     public ResolutionQuantity? ResolutionQuantity { get; set; }
-    public DailyChallenge? DailyChallenge{ get; set; }
+    [DatabaseGenerated(DatabaseGeneratedOption.None)]
+    public Guid? ChallengeID { get; set; }
 
     public ChallengeResolution() { }
 
-    public ChallengeResolution(Guid _challengeID) => DailyChallenge = new DailyChallenge(_challengeID);
+    public ChallengeResolution(Guid _challengeID) => ChallengeID = _challengeID;
 
     public ChallengeResolution(string _location, ResolutionQuantity _quantity)
     {

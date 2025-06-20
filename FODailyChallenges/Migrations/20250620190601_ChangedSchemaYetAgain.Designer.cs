@@ -4,6 +4,7 @@ using FODailyChallenges.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FODailyChallenges.Migrations
 {
     [DbContext(typeof(ChallengesDBContext))]
-    partial class ChallengesDBContextModelSnapshot : ModelSnapshot
+    [Migration("20250620190601_ChangedSchemaYetAgain")]
+    partial class ChangedSchemaYetAgain
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -26,9 +29,6 @@ namespace FODailyChallenges.Migrations
                 {
                     b.Property<Guid>("ResolutionID")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<Guid?>("ChallengeID")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<Guid?>("DailyChallengeChallengeID")
@@ -66,9 +66,11 @@ namespace FODailyChallenges.Migrations
 
             modelBuilder.Entity("FODailyChallenges.Models.ChallengeResolution", b =>
                 {
-                    b.HasOne("FODailyChallenges.Models.DailyChallenge", null)
+                    b.HasOne("FODailyChallenges.Models.DailyChallenge", "DailyChallenge")
                         .WithMany("Resolutions")
                         .HasForeignKey("DailyChallengeChallengeID");
+
+                    b.Navigation("DailyChallenge");
                 });
 
             modelBuilder.Entity("FODailyChallenges.Models.DailyChallenge", b =>

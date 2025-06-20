@@ -55,8 +55,8 @@ public class ChallengesController : Controller
 
     //This is really more of like 'Manage and create known Resolutions'
     [HttpGet]
-    public IActionResult CreateResolution(Guid challengeID)
+    public IActionResult CreateResolution(Guid _challengeID)
     {
-        return View(new ChallengeResolution(challengeID));
+        return View(new ChallengeResolution(_challengeID));
     }
 }
