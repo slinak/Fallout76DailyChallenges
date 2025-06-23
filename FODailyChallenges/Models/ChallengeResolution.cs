@@ -6,16 +6,16 @@ namespace FODailyChallenges.Models;
 public class ChallengeResolution
 {
     [Key]
-    public Guid ResolutionID { get; set; } = Guid.NewGuid();
+    public int ResolutionID { get; set; } 
     public string? ResolutionLocation { get; set; }
     [DisplayName("An estimation of the quantity that can be found at the location")]
     public ResolutionQuantity? ResolutionQuantity { get; set; }
-    [DatabaseGenerated(DatabaseGeneratedOption.None)]
-    public Guid? ChallengeID { get; set; }
+    //[ForeignKey("DailyChallenge.ChallengeID")]
+    public int? ChallengeID { get; set; }
 
     public ChallengeResolution() { }
 
-    public ChallengeResolution(Guid _challengeID) => ChallengeID = _challengeID;
+    public ChallengeResolution(int _challengeID) => ChallengeID = _challengeID;
 
     public ChallengeResolution(string _location, ResolutionQuantity _quantity)
     {

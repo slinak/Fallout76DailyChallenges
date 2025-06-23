@@ -5,7 +5,7 @@
 namespace FODailyChallenges.Migrations
 {
     /// <inheritdoc />
-    public partial class ChangedSchemaYetAgain : Migration
+    public partial class ActuallyWorking : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

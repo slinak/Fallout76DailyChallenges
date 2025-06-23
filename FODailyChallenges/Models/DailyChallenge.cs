@@ -8,7 +8,7 @@ public class DailyChallenge
 {
     [Key]
     [DisplayName("Challenge ID")]
-    public Guid ChallengeID { get; set; } = Guid.NewGuid();
+    public int ChallengeID { get; set; }
     [DisplayName("Challenge Type")]
     public ChallengeType? ChallengeType { get; set; }
     [DisplayName("Challenge Text")]
@@ -17,7 +17,7 @@ public class DailyChallenge
 
     public DailyChallenge() { }
 
-    public DailyChallenge(Guid _challengeID) => ChallengeID = _challengeID;
+    public DailyChallenge(int _challengeID) => ChallengeID = _challengeID;
 
     public DailyChallenge(ChallengeType _type, string _text)
     {
