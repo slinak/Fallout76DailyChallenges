@@ -11,7 +11,7 @@ public class ChallengeResolution
     [DisplayName("An estimation of the quantity that can be found at the location")]
     public ResolutionQuantity? ResolutionQuantity { get; set; }
     //[ForeignKey("DailyChallenge.ChallengeID")]
-    public int? ChallengeID { get; set; }
+    public virtual int? ChallengeID { get; set; }
 
     public ChallengeResolution() { }
 
